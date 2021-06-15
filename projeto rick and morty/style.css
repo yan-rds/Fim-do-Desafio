@@ -1,0 +1,205 @@
+body {      
+   
+    background-image: 
+    url(https://wallpaperaccess.com/full/4127817.jpg);
+    background-size: cover;
+        
+    }
+   
+
+    .titulo {             
+        font-family: 'Indie Flower', cursive;          
+        font-size: 30px;   
+        color: rgb(4, 70, 4);
+        font-style: italic, normal, bolder;       
+        text-shadow: 1px 1px 10px rgb(205, 247, 205), 1px 1px 10px rgb(205, 247, 205),1px 1px 10px rgb(205, 247, 205),1px 1px 10px rgb(205, 247, 205) ; 
+        margin-bottom: 0;      
+        text-align: center;
+        align-items: center;
+        position: center;  
+        
+        padding-bottom: 0;  
+        line-height: 10px;      
+    }
+    .subtitulo {
+        font-family: 'Chelsea Market', cursive;
+        text-shadow: 1px 1px 10px rgb(249, 253, 249), 1px 1px 10px rgb(249, 253, 249),1px 1px 10px rgb(249, 253, 249);
+        font-size: 13px;
+        color: rgb(43, 37, 37);
+        margin-top: 0;    
+        padding-top: 0;       
+        text-align: center;
+        align-items: center;
+        position: center;  
+    }
+    .body {
+        max-height: 768px;
+        max-width: 1368;
+    }
+    .main {    
+       padding: 300px;
+       align-items: center;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       
+    }    
+    .personagem1 {    
+        display: flex;        
+        background: rgba(3, 77, 31, 0.568);       
+        height: 190px;
+        width: 470px;
+        margin-left: 120px;        
+        float: left;
+        padding: 20px;       
+        border: 1.5px solid rgba(2, 41, 24, 0.479);
+        border-radius: 5px;    
+        box-shadow: 0 8px 20px 0 rgba(1, 41, 1, 0.993);
+    }
+    .personagem2 {     
+        display: flex;        
+        background: rgba(3, 77, 31, 0.568);  
+        height: 190px;
+        width: 470px;
+        margin-right: 150px;        
+        float:right;
+        padding: 20px;        
+        border: 1.5px solid rgba(2, 41, 24, 0.479);
+        border-radius: 5px;    
+        box-shadow: 0 8px 20px 0 rgba(1, 41, 1, 0.993);
+    }
+    
+    .personagem3 {        
+        display: flex;              
+        background: rgba(3, 77, 31, 0.568); 
+        height: 190px;
+        width: 470px;
+        margin-left: 120px;
+        margin-top: 30px;
+        float: left;       
+        padding: 20px;       
+        border: 1.5px solid rgba(2, 41, 24, 0.479);
+        border-radius: 5px;    
+        box-shadow: 0 8px 20px 0 rgba(1, 41, 1, 0.993);
+    }
+    .personagem4 {       
+        display: flex;        
+        background: rgba(3, 77, 31, 0.568); 
+        height: 190px;
+        width: 470px;
+        margin-top: 30px;
+        margin-right: 150px;        
+        float: right;      
+        padding: 20px;       
+        border: 1.5px solid rgba(2, 41, 24, 0.479);
+        border-radius: 5px;    
+        box-shadow: 0 8px 20px 0 rgba(1, 41, 1, 0.993);
+    }
+    #nome1, #nome2, #nome3, #nome4 {
+        font-family: 'Mali', cursive;
+        font-size: 27px;
+        color: rgb(5, 107, 138);
+        text-shadow: 1px 1px 8px rgb(233, 241, 233), 1px 1px 8px rgb(233, 241, 233), 1px 1px 8px rgb(233, 241, 233), 1px 1px 8px rgb(1, 34, 1);
+        display:flex;
+        margin-left: 10px;                 
+    }   
+
+    #status1, #status2, #status3, #status4 {
+        display: flex;
+        opacity: 0%;
+        margin-left: 10px;
+        float: right;        
+    }     
+
+    #species1, #species2, #species3, #species4 {
+        display: flex;
+        opacity: 0%;
+        margin-left: 10px;
+        float: right;
+    } 
+
+    #gender1, #gender2, #gender3, #gender4 {
+        display: flex;
+        opacity: 0%;
+        margin-left: 10px;
+        float: right;
+    }
+
+    #origin1, #origin2, #origin3, #origin4 {
+        display: flex;
+        opacity: 0%;
+        margin-left: 10px;
+        float: right;
+    }    
+
+    #botao1 , #botao2, #botao3, #botao4 {
+        border-radius: 10px;
+        background-color: rgba(3, 77, 31, 0.137);
+        border-color: transparent;
+    }
+       
+    #img1 , #img2 , #img3 , #img4 {
+        display: flex;        
+        height: 190px;
+    }     
+
+@media only screen and (min-width: 1632px) and  (max-width: 2100px) {
+    .personagem1, .personagem2, .personagem3, .personagem4 {
+        height: 300px;
+        width: 540px;
+        padding: 25px;
+        margin-left: 150px;
+    }
+    #img1, #img2, #img3, #img4 {
+        height: auto;
+    }
+    #nome1, #nome2, #nome3, #nome4 { 
+        font-size: 31px;
+    }
+    a {font-size: 20px ; margin-bottom: 18px;}
+        
+}
+@media only screen and (min-width: 2100px) and  (max-width: 2500px) {
+    .personagem1, .personagem2, .personagem3, .personagem4 {
+        height: 300px;
+        width: 590px;
+        padding: 30px;
+        margin-left: 250px;
+    }
+    #img1, #img2, #img3, #img4 {
+        height: auto;
+    }
+    #nome1, #nome2, #nome3, #nome4 { 
+        font-size: 43px;
+    }
+    a {font-size: 24px ; margin-bottom: 20px;}
+    
+}
+@media only screen and (min-width: 2500px) and  (max-width: 3000px) {
+    .personagem1, .personagem2, .personagem3, .personagem4 {
+        height: 350px;
+        width: 670px;
+        padding: 35px;
+        margin-left: 300px;
+        margin-right: 180px;
+    }
+    #img1, #img2, #img3, #img4 {
+        
+        height: 330px;
+        
+    }
+
+.titulo {             
+            
+    font-size: 50px; 
+    line-height: 10px;      
+}
+.subtitulo {
+    font-size: 20px;
+    
+}
+#nome1, #nome2, #nome3, #nome4 { 
+    font-size: 46px;
+}
+a {font-size: 30px ; margin-bottom: 30px;}
+}
